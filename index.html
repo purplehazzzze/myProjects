@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step Project</title>
+    <link rel= stylesheet href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel= stylesheet href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header-container">
+        <nav class = "nav-container">
+            <div class="wrapper nav-wrapper">
+                <a href="#" class="logo link-decoration" >
+                    <svg width="58" height="67" viewBox="0 0 58 67" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="58" height="67" fill="url(#pattern0)"/>
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0" transform="scale(0.0172414 0.0149254)"/>
+                            </pattern>
+                            <image id="image0" width="58" height="67" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABDCAYAAADNlhYhAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAxpJREFUaIHt20FoHVUUxvGfExEKgYAgBAoupMGQoLRQLC6KpUX3EUVBBKVCsSgVs6m0S6VuKi2KghgUF6JE2o0rRTEggtKSUqkIDS0UAoVCoFAoBAIuTh6UR/o6M+/OTN6b998lb96957v3nHO/OyQPTS4vqpHDOI5PsID1uibOappnN/7CV9iFz3EFczXNX7nQCXyKC3im67NdOIffxUJUSpVC38BVvIOxHs89h2Wx25NVBVOF0KfwJ77GYwW+d1gszAnsSB1USqETOCN259mSY4zjQ/wnhCcjldDXRXDH9E7TvDwuUnlZpHbf9Ct0RjSTb1VTX7s3xz8nmldpygodx2lclmjFH8CcOI5OixIpTBmhr4g0fV+aNM3LI5tzXsPbmz/npojQGfyK77GzyCSJeVQJw5FH6DhOicZwsFRo1VDIcDxI6Eti5Y4rmCo1kstw3E/ok/gZi6LVDwI9DUe30B3iwL6M5ysPLT0dw3FVl+G4V+ic6KYnbN80zctOXYYjE0X9kyjsQUnTvHQMx7GHRZomN9HbjMnM8ItEpO6dpoOogwwbTQdRA+N1vTNqmrG2CJXhdtNB1EFbdnRUo0PHqEaHjIm2CG3Njo5qdNhoV4224fbSrvtoGxjV6NDRlhptze2lNffRUY0OG6MaHToyNf6FZZNkuNt0EDUwqtFhYz3DzaajqJhfMJvhLA7gUqPhpOcGXsYLWOmk7hL24C2Dv8Pr+Biz+LHzy+4aXcAUPjKY3fg3sWEf6HJ8WzWjOziJaSF8EFjFqziEf7d6oFfXvSFSeY9I7e3IhvjXkmn80OvBPMfLJdGsXsRKv5ElZAlPY16Oi0mRc/S8KPB5zb7dv4nXxOJvmaZbUdQwrItUeQJfqNcnb4ijcBrfFf1yWWe0hqNih8+XHKMIf4he8Z6S2dSvBVwRtXtANYbjFt7EfvzTz0CpvG5qw7GBz8SZ/k2C8ZK/qU9hOP7GXrwrYdOr4vbSMRxTihmONZER+1RQBlVe01blNxxfik5emROr4z7ay3BcFGl6RMVnc50X73sNx3Uhbq8QWzn/A5kFk+cEK0EoAAAAAElFTkSuQmCC"/>
+                        </defs>
+                        <text x="13" y="48" font-family="Montserrat" font-weight="bold" fill = "white" font-size = 40px>H</text>
+                    </svg>
+                    <h1 class = "logo-title">the<span class="logo-title-Ham">Ham</span></h1>
+                </a>
+                <menu class = "main-menu">
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">home</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">About</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">Blog</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">Skills</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">Service</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">Work</a></li>
+                    <li class ="menu-item"><a href="#" class = "link-decoration menu-item-link">Testimonial</a></li>
+                    <li><a href="#" class = "link-decoration menu-item-link"><img src="img/Search icon 1.png" alt=""></a></li>
+                </menu>
+            </div>
+        </nav>
+        <div class = "main-title wrapper">
+            <h2 class = "main-title-ham">The Ham is <span class="ham-text">Wordpress theme</span></h2>
+            <h1 class = "main-title-we-are">we are creative</h1>
+            <h2 class = "main-title-features">Just Buy And Enjoy These Awesome Features</h2>
+            <div class = "buttons-container">
+                <button class = "button button-explore" >EXPLORE NOW</button>
+                <button class = "button button-purchase">purchase now</button>
+            </div>
+        </div>
+    </header>
+    <div class="squares-container">
+        <div class="square square-black">
+            <img src="img/squares/Combined shape 629.png" alt="">
+            <h2 class = "square-black-title">Different theme option</h2>
+        </div>
+        <div class="square square-green">
+            <img src="img/squares/Combined shape 1172.png" alt="">
+            <h2 class = "square-green-title">fully customizable</h2>
+        </div>
+        <div class="square square-black">
+            <img src="img/squares/Combined shape 1179.png" alt="">
+            <h2 class = "square-black-title">unlimited support</h2>
+        </div>
+        <div class="square square-green">
+            <img src="img/squares/Combined shape 1102.png" alt="">
+            <h2 class = "square-green-title">responsive all device</h2>
+        </div>
+    </div>
+    <div class="our-services-container wrapper">
+        <h2 class="services-title">Our Services</h2>
+        <menu class ="services-menu">
+            <li id="web-tab" class="services-menu-item active"><a class = "link-decoration services-menu-item-link">Web Design</a></li>
+            <li id="graphic-tab" class="services-menu-item"><a class = "link-decoration services-menu-item-link">Graphic Design</a></li>
+            <li id="support-tab" class="services-menu-item"><a class = "link-decoration services-menu-item-link">Online Support</a></li>
+            <li id="app-tab" class="services-menu-item"><a class = "link-decoration services-menu-item-link">App Design</a></li>
+            <li id="marketing-tab" class="services-menu-item"><a class = "link-decoration services-menu-item-link">Online Marketing</a></li>
+            <li id="seo-tab" class="services-menu-item"><a class = "link-decoration services-menu-item-link">Seo Service</a></li>
+        </menu>
+        <div id="web" class="services-content">
+            <img class="services-img" src="img/our services/Layer 9 1.png">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div id="graphic" class="services-content">
+            <img class="services-img" src="img/our services/graphic.png">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime nihil voluptates. At beatae debitis dolores doloribus dolorum, eos, esse fugit iusto laborum laudantium modi natus necessitatibus nesciunt perspiciatis porro provident quae quam quas quo quod saepe similique, suscipit ut.</p>
+    </div>
+        <div id="support" class="services-content">
+            <img class="services-img" src="img/our services/support.jpg">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda commodi culpa, dolor dolore error, molestiae nam omnis pariatur possimus, quia rem veritatis vitae. Ab architecto corporis cupiditate dignissimos dolor dolorem exercitationem fugit labore molestiae molestias nesciunt omnis optio provident quod sunt tempore ut, vel velit! A, accusamus aliquam aperiam assumenda atque autem distinctio dolor dolorum eaque facilis fugiat hic illo itaque laboriosam mollitia neque nobis perferendis porro praesentium qui quibusdam quidem quo recusandae saepe similique suscipit unde vero vitae?</p>
+        </div>
+        <div id="app" class="services-content">
+            <img class="services-img" src="img/our services/App-Design-.png">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore laudantium, natus officiis saepe voluptatem.</p>
+        </div>
+        <div id="marketing" class="services-content">
+            <img class="services-img" src="img/our services/Marketing.jpg">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate, delectus dignissimos ducimus ex exercitationem facilis id itaque laboriosam nisi omnis ratione veniam voluptatem. Alias aut facilis, ipsa, ipsam magnam, modi nisi officiis omnis provident repellat sequi voluptatum. Cum dolorem fuga illum libero ratione rem sequi temporibus. Ab at doloribus maxime minima perferendis porro quibusdam quisquam voluptatibus. Aut exercitationem expedita fugit iure molestias possimus tempora voluptas! Ea facilis laudantium nesciunt? Culpa debitis hic labore nihil quaerat. Amet animi asperiores dignissimos eaque eveniet ex, excepturi facere fuga fugiat harum illum impedit in ipsum maiores molestiae necessitatibus nihil odit possimus quasi ratione repudiandae similique ullam! Illum non obcaecati saepe. Id illo molestiae officiis placeat temporibus, totam! Eum ipsam pariatur ullam! Facere, officiis?</p>
+        </div>
+        <div id="seo" class="services-content">
+            <img class="services-img" src="img/our services/SEO.jpg">
+            <p class = "services-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab aliquid architecto asperiores cumque deleniti eveniet explicabo, in, ipsam iure magnam molestiae perferendis porro possimus quis recusandae repellendus sapiente sit!</p>
+        </div>
+    </div>
+
+    <div class="everything-is-ready">
+        <h1 class = "everything-is-ready-title">Everything is ready. just buy and install now</h1>
+        <p class = "everything-is-ready-text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+        <button class = "everything-is-ready-btn">purchase now</button>
+    </div>
+
+    <div class ="our-work">
+        <div class ="wrapper">
+            <h1 class = "services-title">Our Amazing Work</h1>
+            <menu class = "our-work-menu">
+                <li id="all" class="our-work-menu-item"><a class = "link-decoration our-work-menu-item-link">All</a></li>
+                <li id="graphic-design" class="our-work-menu-item"><a class = "link-decoration our-work-menu-item-link">Graphic Design</a></li>
+                <li id="web-design" class="our-work-menu-item"><a class = "link-decoration our-work-menu-item-link">Web Design</a></li>
+                <li id="landing-pages" class="our-work-menu-item"><a class = "link-decoration our-work-menu-item-link">Landing Pages</a></li>
+                <li id="wordpress" class="our-work-menu-item"><a class = "link-decoration our-work-menu-item-link">Wordpress</a></li>
+            </menu>
+            <div class="our-work-content">
+
+                <div class="our-work-img-wrapper">
+                    <img class="graphic-design-img our-work-img" src="img/graphic design/graphic-design1.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="graphic-design-img our-work-img" src="img/graphic design/graphic-design2.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="graphic-design-img our-work-img" src="img/graphic design/graphic-design3.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="graphic-design-img our-work-img" src="img/graphic design/graphic-design4.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="graphic-design-img our-work-img" src="img/graphic design/graphic-design5.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="web-design-img our-work-img" src="img/graphic design/graphic-design6.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Web Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="web-design-img our-work-img" src="img/graphic design/graphic-design7.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Web Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="web-design-img our-work-img" src="img/graphic design/graphic-design8.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Web Design</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/graphic design/graphic-design9.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/graphic design/graphic-design10.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/graphic design/graphic-design11.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/graphic design/graphic-design12.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+            </div>
+            <div id="load-more">
+
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/web design/web-design1.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/web design/web-design2.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/web design/web-design3.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="landing-img our-work-img" src="img/web design/web-design4.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Landing Pages</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/web design/web-design5.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/web design/web-design6.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/web design/web-design7.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/wordpress/wordpress1.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/wordpress/wordpress2.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/wordpress/wordpress3.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/wordpress/wordpress4.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="our-work-img-wrapper">
+                    <img class="wordpress-img our-work-img" src="img/wordpress/wordpress5.jpg">
+                    <div class="our-work-hover">
+                        <a href="#" class="link-decoration link-svg">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="14" y="14" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 2.72817L12.0948 0.891285C11.2902 0.0808612 9.98305 0.0759142 9.17681 0.882615L7.15921 2.89256C6.35161 3.69885 6.34818 5.01032 7.15051 5.82074L8.30352 4.68897C8.18678 4.32836 8.33041 3.9153 8.61593 3.62946L9.89949 2.35187C10.3061 1.94624 10.9584 1.94913 11.3595 2.35434L12.4513 3.45805C12.8528 3.86283 12.8511 4.51713 12.447 4.92318L11.1634 6.20241C10.8918 6.47296 10.4461 6.62168 10.1002 6.52626L8.97094 7.65887C9.77453 8.47177 11.0803 8.47466 11.8889 7.66837L13.9039 5.65924C14.7141 4.85254 14.7167 3.53983 13.9131 2.72817ZM6.52613 10.0918C6.62191 10.4441 6.46857 10.8997 6.19093 11.1777L4.99227 12.3752C4.58074 12.7845 3.91595 12.7833 3.50671 12.369L2.39297 11.2475C1.98465 10.8349 1.98729 10.1633 2.39824 9.75473L3.59804 8.55769C3.89032 8.26607 4.31044 8.12025 4.67711 8.24375L5.83354 7.0715C5.01493 6.2462 3.68249 6.24207 2.86059 7.06324L0.915197 9.0042C0.0922615 9.8266 0.0883685 11.1629 0.90651 11.9886L2.75817 13.8618C3.57595 14.6846 4.90724 14.6912 5.73111 13.8701L7.67649 11.9287C8.49852 11.1054 8.5024 9.77166 7.68553 8.9443L6.52613 10.0918ZM6.25787 9.56307C5.98013 9.84189 5.53427 9.84105 5.26179 9.55812C4.98792 9.27434 4.9901 8.82039 5.26613 8.53993L8.59075 5.16109C8.86679 4.88227 9.31174 4.88311 9.58513 5.16398C9.86048 5.44569 9.85876 5.90088 9.5817 6.18299L6.25787 9.56307Z" fill="#1FDAB5"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <a href="#" class="link-decoration">
+                            <svg class="icon-svg" width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="41" height="40" rx="20" stroke="#18CFAB"/>
+                                <svg x="15" y="15" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="12" height="11" fill="#18CFAB" stroke="#18CFAB"/>
+                                </svg>
+                            </svg>
+                        </a>
+                        <h2 class = "our-work-hover-title">creative design</h2>
+                        <p class = "our-work-hover-text">Wordpress</p>
+                    </div>
+                </div>
+            </div>
+
+            <button id="our-work-btn" class = "everything-is-ready-btn"><img class = "btn-img" src="img/Forma 1.png"> Load More</button>
+        </div>
+    </div>
+
+    <div class="breaking-news">
+        <div class="wrapper">
+            <h1 class = "services-title">Breaking News</h1>
+            <div class="breaking-news-content">
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 47.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 50.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 51.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 52.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 53.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 54.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 55.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+                <a href="#" class = "breaking-news-item link-decoration">
+                    <img src="img/Breaking news/Layer 56.png">
+                    <div class = "feb-12"><p>12</p><p>feb</p></div>
+                    <h2 class="breaking-news-item-title">Amazing Blog Post</h2>
+                    <p class="breaking-news-item-text"><span class="by-admin">By admin</span><span>2 comment</span></p>
+                </a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="what-people-say">
+        <div class="wrapper">
+            <h1 class="services-title what-people-say-title">What People Say About theHam</h1>
+            <div class="reviews-carousel">
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                    <h2 class = "name">Hasan Al</h2>
+                    <p class="profession">UX Designer</p>
+                    <img src ="img/What people say/avatar/1.jpg" class="rev-img">
+                </div>
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">Thrive's website design team far exceeded my expectations on every front, and I have very high expectations. The end product is a beautiful website that embodies who we are as company. Every person I worked with at Thrive was knowledgeable, creative, prompt, and personable.</p>
+                    <h2 class = "name">Leon Green</h2>
+                    <p class="profession">Green Residential</p>
+                    <img src ="img/What people say/avatar/2.jpg" class="rev-img">
+                </div>
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">Working with the Thrive team has been a most pleasant experience! Their dedication and passion for what they do is exemplified by their unrivaled customer support and attentiveness to the specific needs of our business. </p>
+                    <h2 class = "name">Chad Montgomery</h2>
+                    <p class="profession">Co-CEO</p>
+                    <img src ="img/What people say/avatar/3.jpg" class="rev-img">
+                </div>
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">My new site created by Thrive just launched. They've done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations and had a lot of insight regarding marketing tools I didn't know existed.</p>
+                    <h2 class = "name">Craig Williams</h2>
+                    <p class="profession">Web Designer</p>
+                    <img src ="img/What people say/avatar/4.jpg" class="rev-img">
+                </div>
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">Thrive is a great company to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and intelligent. We interviewed several Marketing firms to revamp our website, logo, and other items.</p>
+                    <h2 class = "name">Cass Roberts</h2>
+                    <p class="profession">Marketing Coordinator</p>
+                    <img src ="img/What people say/avatar/5.jpg" class="rev-img">
+                </div>
+                <div class ="what-people-say-profile">
+                    <p class="what-people-say-text">Thrive built my small business a great website that really helps current and potential customers get a good feel for my company. I have been very happy with the customer service and the attention to detail. I highly recommend Thrive for both your website and SEO needs.</p>
+                    <h2 class = "name">Kevin Deaton</h2>
+                    <p class="profession">B&W Cabinets</p>
+                    <img src ="img/What people say/avatar/6.jpg" class="rev-img">
+                </div>
+            </div>
+            <div class="avatar-carousel-wrapper">
+                <div class="carousel-btn prev"><img src="img/What people say/Forma 1.png"> </div>
+                <div id ="avatar-carousel-container" class="avatar-carousel">
+                    <img class="avatar-img" src ="img/What people say/avatar/1.jpg">
+                    <img class="avatar-img" src ="img/What people say/avatar/2.jpg">
+                    <img class="avatar-img" src ="img/What people say/avatar/3.jpg">
+                    <img class="avatar-img" src ="img/What people say/avatar/4.jpg">
+                    <img class="avatar-img" src ="img/What people say/avatar/5.jpg">
+                    <img class="avatar-img" src ="img/What people say/avatar/6.jpg">
+                </div>
+                <div class="carousel-btn next"><img src="img/What people say/Forma 0.png"> </div>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>© Copyright 2015 <a href="#" class = "link-decoration footer-link">theHam</a> | All Rights Reserved</p></footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
