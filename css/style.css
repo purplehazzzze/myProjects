@@ -55,7 +55,6 @@
 
 .main-menu{
     list-style-type: none;
-    width: 615px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +63,9 @@
 .menu-item{
     padding: 46px 0;
     box-sizing: border-box;
+    margin-right: 21px;
+
+    border-bottom: 2px solid transparent;
 }
 .menu-item-link{
     text-transform: uppercase;
@@ -73,6 +75,7 @@
     font-size: 16px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+
 }
 
 .menu-item:hover {
@@ -80,6 +83,11 @@
 }
 .menu-item:hover .menu-item-link{
     color: #18CFAB;
+}
+
+.main-menu-container{
+    display: flex;
+    align-items: center;
 }
 
 .main-title{
@@ -170,12 +178,7 @@
     color: #FFFFFF;
 }
 
-.square-black{
-    text-align: center;
-    padding: 85px 0 110px 0;
-}
-
-.square-green{
+.square{
     text-align: center;
     padding: 95px 0 110px 0;
 }
@@ -197,7 +200,7 @@
     font-size: 20px;
     text-transform: uppercase;
 
-    margin-top:58px;
+    margin-top:68px;
 }
 
         /**SERVICES**/
@@ -241,35 +244,32 @@
     bottom: -3px;
 }
 
-
 .services-menu{
     list-style-type: none;
     background: #F8FCFE;
     border: 1px solid #EDEFEF;
 
     display:flex;
-    justify-content: space-around;
+
 
     margin-top: 73px;
 }
 
-.services-menu-item-link{
+.services-menu-item{
+    padding: 28px 0;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    border: 1.5px solid transparent;
+
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 39px;
     color: #717171;
 
-}
-
-.services-menu-item{
-    padding: 16px 40px;
-    box-sizing: border-box;
-    text-align: center;
-    cursor: pointer;
-    height: 72px;
-    position: relative;
+    flex-grow: 1;
 }
 
 .services-menu-item:after{
@@ -286,11 +286,9 @@
 
 .services-menu-item.active {
     background: #18CFAB;
-}
-
-.services-menu-item.active .services-menu-item-link{
     color: #fff;
 }
+
 .services-menu-item.active:after {
     display: block;
 
@@ -398,24 +396,23 @@
     border: 2px solid #DADADA;
     padding: 8px 20px;
     cursor: pointer;
-}
 
-.our-work-menu-item-link{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 42px;
 
-    color: #717171
+    color: #717171;
 }
 
-.our-work-menu-item:hover{
+.our-work-menu-item:hover {
+    color: #18CFAB;
     border: 2px solid #18CFAB;
 }
 
-.our-work-menu-item:hover .our-work-menu-item-link{
-    color: #18CFAB;
+#all{
+    border: 2px solid #18CFAB;
 }
 
 .our-work-content{
@@ -598,13 +595,13 @@
 }
 
 .what-people-say-text:before{
-    content: "\201C";
+    content: url("../img/What people say/Combined shape 2474.png");
     font-size: 100px;
     color: #18CFAB;
     font-weight: 900;
 
     position: absolute;
-    top: -36px;
+    top: -76px;
     left: 555px;
 }
 

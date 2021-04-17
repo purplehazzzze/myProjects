@@ -57,6 +57,7 @@ $("#our-work-btn").on ("click", function (){
 
 
             // FILTER
+
 $("#graphic-design").on ("click", function (){
     $("#load-more").show( "slow", function() {
     });
@@ -67,7 +68,8 @@ $("#graphic-design").on ("click", function (){
     $(".graphic-design-img").css("display", "block");
 
     $(".our-work-menu-item").css("border", "2px solid #DADADA");
-    $("#graphic-design").css("border", "2px solid #18CFAB");
+    $("#graphic-design").css("border","2px solid #18CFAB");
+
 })
 
 
@@ -81,7 +83,7 @@ $("#web-design").on ("click", function (){
     $(".web-design-img").css("display", "block");
 
     $(".our-work-menu-item").css("border", "2px solid #DADADA");
-    $("#web-design").css("border", "2px solid #18CFAB");
+    $("#web-design").css("border","2px solid #18CFAB");
 })
 
 $("#landing-pages").on ("click", function (){
@@ -94,7 +96,7 @@ $("#landing-pages").on ("click", function (){
     $(".landing-img").css("display", "block");
 
     $(".our-work-menu-item").css("border", "2px solid #DADADA");
-    $("#landing-pages").css("border", "2px solid #18CFAB");
+    $("#landing-pages").css("border","2px solid #18CFAB");
 })
 
 $("#wordpress").on ("click", function (){
@@ -107,7 +109,7 @@ $("#wordpress").on ("click", function (){
     $(".wordpress-img").css("display", "block");
 
     $(".our-work-menu-item").css("border", "2px solid #DADADA");
-    $("#wordpress").css("border", "2px solid #18CFAB");
+    $("#wordpress").css("border","2px solid #18CFAB");
 })
 
 $("#all").on ("click", function (){
@@ -119,10 +121,9 @@ $("#all").on ("click", function (){
     $(".our-work-img").css("display", "block");
 
     $(".our-work-menu-item").css("border", "2px solid #DADADA");
-    $("#all").css("border", "2px solid #18CFAB");
+    $("#all").css("border","2px solid #18CFAB");
 
 })
-
             // Carousel
 
 $(document).ready(function(){
