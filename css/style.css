@@ -274,7 +274,7 @@
 
 .services-menu-item:after{
     position: absolute;
-    left: 76px;
+    left: calc(50% - 16px);
     bottom: -14px;
 
     content: url("../img/Rectangle 60.png");
@@ -638,6 +638,8 @@
     border-radius: 50%;
     border: 12px solid rgba(31, 218, 181,0.2);
     box-sizing: border-box;
+
+    cursor:pointer;
 }
 
 .avatar-carousel{
@@ -651,7 +653,7 @@
 
     border-radius: 50%;
     border: 6px solid rgba(31, 218, 181,0.2);
-
+    cursor: pointer;
 }
 .carousel-btn{
     width: 31px;
